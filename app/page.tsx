@@ -129,18 +129,17 @@ export default function Home() {
                     {post.message}
                   </p>
                   <p className="mt-3 text-xs text-gray-500">
-                    {new Date(post.created_at).toLocaleDateString()}
-                  </p>
-                </article>
-              ))}
-            </div>
-          )}
-        </section>
+                    {new Date(post.created_at).toLocaleDateString()} </p> </article>
+))} </div>
+)} </section>
 
-        <footer className="mt-12 text-center text-xs text-gray-500">
-          LSA Confession · Think before you post.
-        </footer>
-      </div>
-    </main>
-  );
+```
+    <footer className="mt-12 text-center text-xs text-gray-500">
+      LSA Confession · Think before you post.
+    </footer>
+  </div>
+</main>
+```
+
+);
 }
